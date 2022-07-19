@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo__img {
+        margin-bottom: 15px;
+    }
+
+    nav .container {
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    main .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .menu {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 560px) {
+    .cards {
+        justify-content: center;
+    }
+    
+    .card {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+
+    footer .menu {
+        text-align: center;
+    }
+}
